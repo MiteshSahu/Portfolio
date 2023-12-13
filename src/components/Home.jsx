@@ -7,7 +7,7 @@ const Home = () => {
 
     const handleDemoUrl = () => {
         window.open(
-            "https://drive.google.com/file/d/17ocxrI790afnKYC4uR83J84M2n6fL6Vs/view?usp=sharing",
+            "https://drive.google.com/file/d/1yo48kiNNZiZdIGzIgyWZz4lz5pp-Dckw/view?usp=sharing",
             '_blank')
     }
 
@@ -18,22 +18,18 @@ const Home = () => {
                 className="max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-center h-full px-4">
                 <div className="flex flex-col justify-center h-full md:w-1/2">
                     <h2 className="text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold">
-                        I'm a Full Stack Developer
+                        I'm a Software Engineer
                     </h2>
-                    <p className="text-gray-500 py-4 max-w-md text-lg">
-                        I'm a passionate developer who is always looking for new challenges. I love
-                        learning new things and building things.
-                        I have Experience in MERN stack, Java Frameworks, Frontend/Backend/Cloud
-                        Technologies, and DevOps
-                    </p>
+                    <p className="text-gray-200 py-4 max-w-md text-lg">
+                    Experienced Java and Spring Boot developer with an abilities for problem solving. As a dynamic software engineer, I enjoy taking on new challenges and participate on LeetCode. I'm excited to contribute my knowledge and ingenuity to your vibrant team.                    </p>
                     <div>
                         <Link
-                            to="portfolio"
+                            to="projects"
                             smooth
                             duration={500}
                             className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
                         >
-                            Portfolio
+                            Projects
                             <span className="group-hover:rotate-90 duration-300">
             <MdOutlineKeyboardArrowRight size={25} className="ml-1"/>
           </span>

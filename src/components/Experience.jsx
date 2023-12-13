@@ -2,17 +2,19 @@ import React from "react";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
-import react from "../assets/react.png";
 import github from "../assets/github.png";
 import java from "../assets/java.png";
-import typescript from "../assets/typeScript.png";
-import node from "../assets/node.png";
-import spring from "../assets/springjava.png";
+import docker from "../assets/docker.png";
 import springboot from "../assets/springboot.png";
-import aws from "../assets/aws.png";
 import mysql from "../assets/mysql.png";
 import postgres from "../assets/postgres.png";
 import mongodb from "../assets/mongodb.jpg";
+import airflow from "../assets/airflow.png";
+import spark from "../assets/spark.png";
+import python from "../assets/python.jpeg";
+import figma from "../assets/figma.png";
+import kubernetes from "../assets/kubernetes.png";
+import firebase from "../assets/firebase.png"
 
 function Experience() {
     const techs = [
@@ -25,40 +27,23 @@ function Experience() {
         },
         {
             id: 2,
-            src: node,
-            title: "NodeJS",
-            style: "shadow-green-400",
-        },
-        {
-            id: 3,
-            src: spring,
-            title: "Spring",
-            style: "shadow-green-400",
-        },
-        {
-            id: 4,
             src: springboot,
             title: "springboot",
             style: "shadow-green-400",
         },
+    
         {
-            id: 5,
-            src: github,
-            title: "Github",
-            style: "shadow-gray-400",
+            id: 6,
+            src: spark,
+            title: "Apache Spark",
+            style: "shadow-blue-400",
         },
         {
             id: 6,
-            src: aws,
-            title: "AWS",
-            style: "shadow-gray-400",
-        },
-        {
-            id: 7,
-            src: typescript,
-            title: "TypeScript",
+            src: python,
+            title: "Python",
             style: "shadow-blue-400",
-        },
+        }
 
     ];
 
@@ -83,8 +68,8 @@ function Experience() {
         },
         {
             id: 9,
-            src: react,
-            title: "react",
+            src: figma,
+            title: "Figma",
             style: "shadow-blue-600",
         },
     ]
@@ -108,6 +93,39 @@ function Experience() {
             title: "MONGODB",
             style: "shadow-yellow-500",
         },
+        {
+            id: 4,
+            src: firebase,
+            title: "Firebase",
+            style: "shadow-yellow-500",
+        }
+    ]
+    const tech4 = [
+         {
+                id: 1,
+                src: docker,
+                title: "Docker",
+                style: "shadow-green-400",
+            },
+            {
+            id: 2,
+            src: airflow,
+            title: "Apache Airflow",
+            style: "shadow-gray-400",
+        },
+        {
+            id: 3,
+            src: github,
+            title: "Github",
+            style: "shadow-gray-400",
+        },
+        {
+            id: 4,
+            src: kubernetes,
+            title: "Kubernetes",
+            style: "shadow-gray-400",
+        },
+        
     ]
     return (
         <div
@@ -154,6 +172,19 @@ function Experience() {
                 <div
                     className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
                     {techs3.map(({id, src, title, style}) => (
+                        <div
+                            key={id}
+                            className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
+                        >
+                            <img src={src} alt="" className="w-20 mx-auto"/>
+                            <p className="mt-4">{title}</p>
+                        </div>
+                    ))}
+                </div>
+                <h1>Familiar With</h1>
+                <div
+                    className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+                    {tech4.map(({id, src, title, style}) => (
                         <div
                             key={id}
                             className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}

@@ -11,21 +11,20 @@ function About() {
                 </div>
                 <div>
                     <p className='text-xl mt-10 lg:mt-20'>
-                        Passionate about Software development and currently a graduate student at Northeastern University. After the completion of my Bachelor from GTU Gujarat, India, I worked for TechNeos Solutions, Ahmedabad, India for 6 months as a Software Developer Intern. I have a track record of developing code and digital solutions using cutting-edge technologies for startups. Other than that, I was also responsible for support where it needed to resolve defects in real-time.
+                    With nearly 2 years of diverse experience in the tech industry, including impactful internships, I bring versatility to my role as a Software Engineer at Iauro Systems. Specializing in Spring Boot, Java, microservices, and JavaScript, my expertise spans not only backend development but also encompasses data engineering and frontend technologies. Successfully managing 4+ multitenant microservices, I've implemented key features to enhance functionality and save valuable time. Eager to continue contributing to the dynamic world of technology with a well-rounded skill set!
                     </p>
                     <br/>
                     <p className='text-xl w-120'>
                         My expertise lies in the following:
                         <br/>
 
-                        <b className='text-blue-500'>Programming Languages:</b> <span>Java, JavaScript, Typescript, Python, Object-Oriented Design</span>
+                        <b className='text-blue-500'>Programming Languages:</b> <span>Java, JavaScript, Python, Object-Oriented Design</span>
                         <br/>
                         <b className='text-blue-500'>Databases:</b> <span>MySQL, MongoDB, PostgreSQL</span>
                         <br/>
-                        <b className='text-blue-500'>Technologies:</b> <span>HTML5, CSS3, Bootstrap5, Hibernate, Spring, Spring-boot, Express, NodeJS, ReactJS, Redux, JSON, RESTful APIs, Swing, XML</span>
+                        <b className='text-blue-500'>Technologies:</b> <span> Hibernate, Spring, Spring-boot, JSON, Apache Airflow, Apache Spark, RESTful APIs, Swing, XML</span>
                         <br/>
-                        <b className='text-blue-500'>Software/Tools:</b> <span>Postman, IntelliJ, Tomcat, VS Code, Jira, DevOps, Github Actions, CI/CD, Docker, ETL, TDD, Maven, Git, Junit</span><br/>
-                        <b className='text-blue-500'>Cloud Technology:</b> <span>EC2, S3, CloudFront, RDS, Cloudwatch, AWS Lambda, CloudFront, IAM, Metrics, AMI, User Data, Terraform, Packer</span><br/>
+                        <b className='text-blue-500'>Software/Tools:</b> <span>Postman, IntelliJ, Tomcat, VS Code, Jira, DevOps, Github Actions, CI/CD, Docker, ETL, TDD, Maven, Git, Junit, Figma</span><br/>
                     </p>
                 </div>
             </div>
